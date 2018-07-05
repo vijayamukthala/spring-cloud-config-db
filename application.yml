@@ -3,3 +3,5 @@ spring:
         url: jdbc:mysql://192.168.199.18:3306/sortation?useSSL=false
         username: sqluser
         password: wipro@123
+        application:
+            name: app2service
