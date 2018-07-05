@@ -4,4 +4,4 @@ spring:
         username: sqluser
         password: wipro@123
         application:
-            name: app2service
+            name: app2service testsgdsdfglksdfglkj
