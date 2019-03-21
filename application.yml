@@ -1,3 +1,7 @@
 spring:
   application:
     name1: spring-cloud-config-db vijaya kumar
+
+limit-service:
+  maximum: 9999
+  minimum: 99
