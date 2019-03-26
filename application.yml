@@ -1,7 +1,31 @@
+server:
+  port: 0
 spring:
   application:
-    name1: spring-cloud-config-db vijaya kumar
+    name: employee-service-controller
+    
+management:
+  security:
+    enabled: false
+    
+        
+  
+eureka:
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+    prefer-ip-address: true
+  client:
+    serviceUrl:
+      defaultZone : http://127.0.0.1:8761/eureka/
+    healthcheck:
+      enabled: true
 
-limit-service:
-  maximum: 93333
-  minimum: 3333
+
+pivotal:
+  student:
+    name: spring-eureka-client-school-service
+  employee:
+    name: employee-service-controller
+      
+      
+      
